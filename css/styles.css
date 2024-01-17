@@ -110,6 +110,15 @@ text-align: center;
 	color: var(--fb-bg-color);
 }
 
+/* interactividad */
+a:hover{
+	scale: 1.2;
+}
+a:active{
+	scale: 1;
+}
+
+
 /* ------------------------
 Diseño: UIDesign Daily🎨
 Desarrollo: Frontend Club🔥
