@@ -37,6 +37,7 @@ body {
 	line-height: var(--lh-text);
     width: 100vw;
 	height: 100vh;
+	min-width: 320px;
 
 	display: flex;
 	justify-content: center;
@@ -110,13 +111,14 @@ text-align: center;
 	color: var(--fb-bg-color);
 }
 
-/* interactividad */
+/* interactividad*/
 a:hover{
 	scale: 1.2;
 }
 a:active{
 	scale: 1;
 }
+
 
 
 /* ------------------------
