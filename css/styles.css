@@ -10,7 +10,9 @@ Tabla de contenidos:
 
 /* ----- Fuente ----- */
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
+*,::after,::before{
+	box-sizing: border-box;
+}
 
 /* ----- Variables ----- */
 * {
@@ -33,7 +35,7 @@ body {
 	background-color: var(--body-bg-color);
 	color: var(--text-color);
 	line-height: var(--lh-text);
-
+    width: 100vw;
 	height: 100vh;
 
 	display: flex;
@@ -42,11 +44,71 @@ body {
 	flex-direction: column;
 }
 
+
 img {
 	width: 150px;
+	height: 150px;
 	border-radius: 50%;
+	background-color:white;
+}
+.card{
+	width: 400px;
+	height: 520px;
+	background-color:var(--card-bg-color) ;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0;
 }
 
+.main{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px;
+}
+h3{
+	margin: 0;
+	padding: 32px 0 16px 0;
+}
+h4{
+   margin: 0;
+	background-color:var(--body-bg-color);	
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-size: 16px;
+}
+.main{
+text-align: center;
+}
+.footer{
+	background-color: #1F1E1E;
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+	width: inherit;
+	height: 100px;	
+	border-radius:0 0 10px 10px;
+}
+.icono{
+	font-size: 24px;
+
+}
+
+.tw{
+	color: var(--fb-bg-color);
+}
+.in{
+	color: var(--li-bg-color);
+
+}
+.fb{
+	color: var(--fb-bg-color);
+}
 
 /* ------------------------
 Diseño: UIDesign Daily🎨
